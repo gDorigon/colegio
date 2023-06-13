@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    top: 0;
+    position: fixed;
+    background-color: grey;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+header a {
+    color: green;
+    background-color: yellow;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header a:hover{
+    background-color: teal;
+    color: white;
+    box-shadow: 0 3px 3px black;
+}
+
+.btn1:hover{
+    animation-name: efeito1;
+    animation-delay: .5s;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes efeito1{
+    0% { transform: rotate(0);}
+    50% { transform: rotate(180deg);}
+    100% { transform: rotate(0);}
+}
+
+.btn2:hover{
+    animation-name: efeito2;
+    animation-delay: .5s;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes efeito2{
+    0% { transform: rotate(0);}
+    50% { transform: rotate(180deg);}
+    100% { transform: rotate(360deg);}
+}

@@ -1,0 +1,110 @@
+body{
+    margin: 0 auto; /* margens externas do elemento */
+    width: 960px; /*  tamanho - comprimento */
+    background-color: #ddd; /* cor do fundo */
+    padding: 0px; /*  margem interna do elemento */
+    background: url(assets/fundo.gif) repeat-x; /* inserir uma imagem ao fundo */
+}
+
+#cabecalho img{
+    float: left; /*  posicionamento do elemento a esquerda*/
+}
+
+#menu{
+    float: left; /*  posicionamento */
+    margin-top: 90px; /*  distancia da margem superiro */
+    width: 400px;
+}
+#menu li{
+    height: 50px; /*  tamanho - compriment vertical */
+    display: table-cell; /*  forma de posicionamento em tela */
+    text-align: center; /* centralização do texto  */
+    vertical-align: middle; /*  centralização do texto na parte vertical  */
+    width: 150px;
+    border-right: 1px solid #fff; /*  inserir borda, espessura, tipo e cor */
+}
+
+/* ------------------------------------------------- */
+
+#menu ul li a {
+    text-decoration: none; /*  retirar o sublinhado do elemento / decoração do texto */
+    font-size: 20px; /* tamanho da fonte  */
+    color:#fff; /*  cor da fonte  */
+}
+
+#slider {
+    width: 900px;
+    height: 384;
+    margin-top: 15px; /*  margem no topo do elemento  */
+    margin-bottom: 10px; /* margem a baixo do elemento s  */
+}
+
+#slider img{
+    width: 960px;
+    height: 394;
+}
+
+#social{
+    float: right; /*  posicionamento em tela a direita  */
+    margin-top: 40px;
+}
+
+#social img{
+    width: 32px;
+    height: 32px;
+}
+
+#lateral {
+    float: right; 
+    background: #fff;
+    width: 190px;
+    border-radius: 10px; /*  arredondamento da borda */
+    padding: 5px;
+}
+
+#lateral h1{
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #000; /*  borda na parte inferior do elemento  */
+    margin-top: -5px;
+}
+
+#lateral h2{
+    font-size: 16px;
+}
+#lateral p{
+    text-align: justify;
+}
+
+#main{
+    background-color: #fff;
+    width: 730px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#b1{
+    position: relative; /*  posicionamento relativo, referencia ao pai deste */
+    left: 0px;
+    top: 0px;
+}
+
+#b2{
+    position: relative;
+    left: 0px;
+    top: -388px;
+}
+
+#b3{
+    position: relative;
+    left: 0px;
+    top: -776px;
+}
+
+#contato label{
+    font-size: 15px;
+    font-weight: bold; /*  tipo de negrito  */
+    font-style: italic; /*  estilo de fonte  */
+    font-family: arial; /*  tipo de fonte  */
+    color: #777;
+}

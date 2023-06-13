@@ -1,0 +1,98 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: movimento 5s ease-in-out infinite;
+}
+
+@keyframes movimento{
+    0% { background: rgb(255, 0, 204);  }
+
+    23%{
+        opacity: 1;
+    }
+    25% { 
+        background: rgb(0, 200, 255); 
+        border-radius:  50%;
+        transform: translate(1250px, 400px);
+    }
+    26%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+
+    48%{
+        opacity: 1;
+    }
+    50% { 
+         background: yellow;
+         border-radius:  0%;
+         transform: translate(1250px, 0px);
+    }
+    51%{
+        opacity: 0;
+    }
+    52%{
+        opacity: 1;
+    }
+
+    73%{
+        opacity: 1;
+    }
+    75% { 
+        background-color: rgb(0, 255, 30); 
+        border-radius:  50%;
+        transform: translate(0px, 400px);
+    }
+    76%{
+        opacity: 0;
+    }
+    77%{
+        opacity: 1;
+    }
+
+    97%{
+        opacity: 1;
+    }
+    98% { 
+        background-color:rgb(255, 0, 204); 
+        border-radius:  0%;
+        transform: translate(0px, 0px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+    /* 0% { background: rgb(255, 0, 204); }
+
+
+    20% { 
+        background: rgb(0, 255, 0); 
+        border-radius:  50%;
+        transform: translate(800px, 100px);
+     }
+    40% { 
+        background: rgb(0, 200, 255); 
+        border-radius:  0%;
+        transform: translate(500px, 300px);
+    }
+    60% { 
+         background: yellow;
+         border-radius:  50%;
+         transform: translate(200px, 400px);
+    }
+    80% { 
+        background-color: rgb(0, 255, 30); 
+        border-radius:  0%;
+        transform: translate(700px, 300px);
+    }
+    100% { 
+        background-color: rgb(0, 183, 255); 
+        border-radius:  50%;
+        transform: translate(0px, 0px);
+    } */
+}

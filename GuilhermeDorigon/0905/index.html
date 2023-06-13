@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Animações</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h1> Aula de JS </h1>
+
+    <a href="https://pt-br.facebook.com/" id="link"><img src="dorigas.jpg" alt="" id="imagem"> </a>
+
+    <script>
+        var sorteio = Math.floor(Math.random()* 4 +1);
+
+        if( sorteio == 1){
+            document.getElementById("imagem").src = "twitter.jpg"
+            document.getElementById("link"). href = "https://www.twitter.com"
+
+        }
+        if( sorteio == 2){
+            document.getElementById("imagem").src = "download.jpg"
+            document.getElementById("link"). href = "https://google.com"
+        }
+        if( sorteio == 3){
+            document.getElementById("imagem").src = "dorigas.jpg"
+            document.getElementById("link"). href = "https://gdorigon.github.io"
+        }
+        if( sorteio == 4){
+            document.getElementById("imagem").src = "twitter.jpg"
+            document.getElementById("link"). href = "https://www.twitter.com"
+        }
+
+    </script>
+</body>
+</html>
